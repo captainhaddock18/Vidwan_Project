@@ -29,7 +29,9 @@ const authRoutes = require('./routes/authRoutes');
 const vidwanRoutes = require('./routes/vidwanRoutes');
 const programRoutes = require('./routes/programRoutes');
 
-// Mount Routes
+const path = require('path');
+
+// Mount API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/vidwans', vidwanRoutes);
 app.use('/api/programs', programRoutes);
@@ -39,10 +41,22 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date() });
 });
 
-// 404 handler
-app.use((req, res, next) => {
-  res.status(404).json({ message: `Route not found - ${req.originalUrl}` });
-});
+// Serve frontend in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../public')));
+
+  app.get('*', (req, res) => {
+    if (req.originalUrl.startsWith('/api')) {
+      return res.status(404).json({ message: `API route not found - ${req.originalUrl}` });
+    }
+    res.sendFile(path.resolve(__dirname, '../public', 'index.html'));
+  });
+} else {
+  // 404 handler for development
+  app.use((req, res, next) => {
+    res.status(404).json({ message: `Route not found - ${req.originalUrl}` });
+  });
+}
 
 // Global Error Handler
 app.use((err, req, res, next) => {
