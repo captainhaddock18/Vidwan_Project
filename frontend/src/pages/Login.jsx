@@ -50,11 +50,11 @@ const Login = () => {
           <div className="w-16 h-16 bg-saffron-soft rounded-full flex items-center justify-center mx-auto mb-4 border border-saffron/20">
             <Compass className="w-8 h-8 text-saffron" />
           </div>
-          <h2 className="text-2xl font-bold font-serif text-teak tracking-wide">
-            Aham Brahmasmi Foundation
+          <h2 className="text-xl font-bold font-serif text-teak tracking-wide">
+            Aham Brahmaasmi Foundation®
           </h2>
-          <p className="text-xs text-saffron uppercase font-semibold tracking-widest mt-1">
-            Sharada Peetham, Sringeri
+          <p className="text-[10px] text-saffron uppercase font-semibold tracking-wider mt-1">
+            (A Unit of Dakshinamnaya Sri Sharada Peetham, Sringeri)
           </p>
           <p className="text-xs text-teak-muted mt-2 font-sans">
             Internal Vidwan Scheduling & Camp Allocation System

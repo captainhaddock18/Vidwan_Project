@@ -1,6 +1,6 @@
-# Aham Brahmasmi Foundation Scheduler (Sharada Peetham)
+# Aham Brahmaasmi Foundation® (A Unit of Dakshinamnaya Sri Sharada Peetham, Sringeri)
 
-A production-ready MERN stack web application built specifically for the administrators of the **Aham Brahmasmi Foundation / Sharada Peetham** to coordinate spiritual camp schedules, allocate scholars (Vidwans), and instantly detect scheduling conflicts without spreadsheets or endless phone calls.
+A production-ready MERN stack web application built specifically for the administrators of the **Aham Brahmaasmi Foundation®** to coordinate spiritual camp schedules, allocate scholars (Vidwans), and instantly detect scheduling conflicts without spreadsheets or endless phone calls.
 
 The interface is built using a calm, traditional-yet-modern design language (Cream background, Sandalwood card panels, and Saffron accents) with large buttons and highly legible text designed for tablet and desktop ease-of-use.
 

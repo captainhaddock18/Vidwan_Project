@@ -17,7 +17,7 @@ const ProtectedLayout = ({ children }) => {
       <div className="min-h-screen bg-cream flex items-center justify-center">
         <div className="text-center">
           <div className="w-12 h-12 border-4 border-saffron border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <h2 className="text-lg font-serif font-bold text-teak">Aham Brahmasmi System</h2>
+          <h2 className="text-lg font-serif font-bold text-teak">Aham Brahmaasmi Foundation®</h2>
           <p className="text-xs text-teak-light">Verifying credentials...</p>
         </div>
       </div>

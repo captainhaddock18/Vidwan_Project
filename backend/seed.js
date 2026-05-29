@@ -187,7 +187,7 @@ const seedData = async () => {
     await Program.insertMany(programs);
     console.log('Seeded initial Programs (Camps). No conflict by default.');
 
-    console.log('Seeding completed successfully!');
+    console.log('--- Aham Brahmaasmi Foundation® System Seeded Successfully ---');
     process.exit(0);
   } catch (error) {
     console.error('Seeding failed:', error);

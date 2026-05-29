@@ -25,11 +25,11 @@ const Sidebar = () => {
     <aside className="w-64 bg-white border-r border-cream-border flex flex-col h-screen sticky top-0">
       {/* Brand Header */}
       <div className="p-6 border-b border-cream-border bg-cream/40">
-        <h1 className="text-xl font-bold text-teak font-serif tracking-wide leading-tight">
-          Aham Brahmasmi
+        <h1 className="text-lg font-bold text-teak font-serif tracking-wide leading-tight">
+          Aham Brahmaasmi Foundation®
         </h1>
-        <p className="text-xs text-saffron font-medium uppercase tracking-widest mt-1">
-          Sharada Peetham
+        <p className="text-[10px] text-saffron font-medium uppercase tracking-wider mt-1">
+          (A Unit of Dakshinamnaya Sri Sharada Peetham, Sringeri)
         </p>
         <span className="text-[10px] text-teak-muted font-sans block mt-0.5">
           Camp Scheduling System
