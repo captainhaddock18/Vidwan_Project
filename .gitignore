@@ -1,0 +1,14 @@
+# Project wide ignore
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+
+# Backend specific
+backend/node_modules/
+backend/.env
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
